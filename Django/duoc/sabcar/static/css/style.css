@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.10s ease;
+    margin: 0; /* Agregamos esto para eliminar los márgenes predeterminados del cuerpo */
+    padding: 0; /* Agregamos esto para eliminar el relleno predeterminado del cuerpo */
+}
+
+header {
+    background-color: #eb8de6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #eb8de6;
+    text-align: center;
+    padding: 0px 0; /* Agregamos esto para dar espacio a los botones */
+}
+
+
+.nav-link {
+    color: #f0f0f0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+/* carrusel */
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 0px;
+
+    object-fit: cover;
+}
+
+h2 {
+    color: #eb8de6;
+}
+
+/*  pie de página */
+footer {
+    background-color: #eb8de6;
+    color: #fff;
+    padding: 0px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: -1px;
+
+}
+
+/*  pie de página (footer) */
+.footer_section {
+    background-color: #eb8de6;
+    color: #fff;
+    padding: 60px 0;
+    width: 100%;
+
+}
+
+.follow_text {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+}
+
+.social_icon {
+    text-align: center;
+}
+
+
+/* da forma al pie de pagina  */
+.location_main .location_left,
+.location_main .location_middle,
+.location_main .location_right {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.location_main .call_text {
+    margin-top: 20px;
+
+}
+
+.location_main .call_text a {
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+
+/* Color de enlace al pasar el cursor sobre información de contacto */
+.location_main .call_text a:hover {
+    color: #df0fdf;
+
+}
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.copyright_section {
+    width: 100%;
+    float: left;
+    background-color: #ffffff;
+    height: auto;
+}
+
+/* Estilos para el texto de derechos de autor */
+.copyright_text {
+    width: 100%;
+    float: left;
+    color: #df0fdf;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 0px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    /* Cambia 'Arial' por la fuente que prefieras */
+}
+
+.copyright_text a {
+    color: #1c1b1b;
+
+}
+
+.copyright_text a:hover {
+    color: #b60213;
+}
+
+.row {
+    text-align: center;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.form-control {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#registroForm input[type="text"],
+#registroForm input[type="email"],
+#registroForm input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#registroForm input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.custom-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: px; /* Ajustamos el espacio entre elementos */
+    padding: 0  0px; /* Añadimos relleno para evitar que los botones se peguen al borde */
+    margin-top: -50px;
+}
+
+/* Ajuste de los botones */
+.custom-container button {
+    margin-top: 0px; /* Ajustamos la separación entre los botones y el borde superior */
+}
+
+.btn {
+    width: 40px; /* Ancho deseado para los botones */
+    height: 40px; /* Altura deseada para los botones */
+    border-radius: 50%; /* Esto hace que los botones tengan forma de círculo */
+    border: none; /* Quitamos el borde */
+    background-color: transparent; /* Quitamos el color de fondo por defecto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#icon {
+    color: #fff8f8; /* Color del icono */
+    font-size: 20px; /* Tamaño del icono */
+}
